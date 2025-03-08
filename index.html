@@ -26,16 +26,19 @@
 
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header page__header">
       <img src="./images/logo.webp" class="header__logo" alt="Tripleten Art Gallery logo">
-      <h1 class="header__heading">De patria a patria</h1>
-      <h2 class="header__subheading">Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania</h2>
-      <div class="header__img-container">
-        <img src="./images/homeland-large.webp" alt="Imagen de un paisaje en la playa" class="header__image">
-      </div>
+      <h1 class="header__heading header__heading_pos">De patria a patria</h1>
+      <p class="header__description">Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania</p>
+      <picture class="header__img-container">
+        <source media="(max-width:544px)" srcset="./images/homeland_small-320.webp">
+        <source media="(max-width:1024px)" srcset="./images/homeland_medium-size.webp">
+        <img src="./images/homeland-large.webp" alt="Imagen de un paisaje en la playa"
+          class="header__image header__image-position">
+      </picture>
     </header>
 
-    <main class="content">
+    <main class="main">
       <h2>Conoce un poco mejor los lugares de los que proceden tus colegas en línea</h2>
       <p class="content__paragraph">Todo ser humano es un artista, un ser de la libertad, llamado a participar
         en la

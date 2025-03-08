@@ -5,11 +5,10 @@
 }
 
 html {
-  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-a {
+/* a {
   text-decoration: none;
 }
 
@@ -32,8 +31,4 @@ a:hover {
 a:active {
   color: #2F80ED;
   font-weight: 500;
-}
-
-.page {
-  font-family: "Inter", "Roboto", sans-serif;
-}
+} */
