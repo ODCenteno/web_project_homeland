@@ -7,6 +7,8 @@ Esta web permite conocer uno de los lugares donde todo desarrollador puede llega
 * HTML
 * CSS
 * Prettier
-* Git y GitHub
+* Git y GitHug
 
 ## Desarrollado por ODCenteno
+
+Disfruta del viaje en [la página De patria apatria](https://odcenteno.github.io/web_project_homeland/)
