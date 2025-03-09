@@ -28,10 +28,31 @@
   line-height: 1.63;
 }
 
-@media screen and (max-size: 544px) {
+@media screen and (max-width: 1024px) {
+  .content {
+    max-width: 720px;
+  }
 
+  .content__heading {
+    font-size: 45px;
+  }
+
+  .content__heading-position {
+    margin-bottom: 50px;
+  }
 }
 
-@media  screen and (max-size: 1024px) {
+@media screen and (max-width: 544px) {
+  .content {
+    max-width:288px;
+  }
 
+  .content__heading {
+    font-size: 32px;
+  }
+
+  .content__heading-position {
+    margin-bottom: 40px;
+  }
 }
+
