@@ -4,26 +4,40 @@
 }
 
 .places__article {
-  width: 100%;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-  gap: 48px 16px;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto 460px auto;
+  gap: 48px 40px;
 }
 
 .places__title {
-
+  font-weight: 900;
+  font-size: 72px;
+  line-height: calc(76 / 72);
 }
 
 .places__artists-container {
-
+  align-self: self-end;
 }
 
 .places__artist-heading {
+  color: #AAAAAA;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+}
 
+.places__artist-heading-position {
+    margin-bottom: 8px;
 }
 
 .places__artists {
-
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(22 / 18);
 }
 
 .places__image-container {
@@ -41,6 +55,7 @@
   height: min(100%, 460px);
   /* aspect-ratio: 1 / 1; */
   object-fit: cover;
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .places__overlay {
@@ -56,18 +71,23 @@
 
 .places__content {
   width: min(100%, 460px);
+  grid-row: span 2;
 }
 
 .places__paragraph {
-
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.63;
+  padding-bottom: 25px;
 }
 
 .places__button {
-  width: max(100%, 320px);
+  width: fit-content;
   height: 48px;
   padding: 13px 20px;
   text-align: center;
   border-radius: 4px;
+  line-height: 1;
   color: white;
   font-size: 18px;
   font-weight: 600;
@@ -78,4 +98,8 @@
 .places__button:hover {
   background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
   cursor: pointer;
+}
+
+.places__button {
+  align-self: start;
 }
