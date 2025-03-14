@@ -79,7 +79,8 @@
           class="photo-grid__image">
       </div>
       <div class="photo-grid__container">
-        <img src="c" alt="fotogragía de un paisaje impresionante" class="photo-grid__image">
+        <img src="https://picsum.photos/352/264.webp?random=6" alt="fotogragía de un paisaje impresionante"
+          class="photo-grid__image">
       </div>
       <div class="photo-grid__container">
         <img src="https://picsum.photos/352/264.webp?random=7" alt="fotogragía de un paisaje impresionante"
@@ -98,10 +99,16 @@
           <p class="places__artists">Steffan Warren, editor jefe</p>
           <p class="places__artists">Kseniya Glagoleva, gerente de proyectos</p>
         </div>
-        <div class="places__image-container">
-          <img src="https://picsum.photos/460.webp?random=8" alt="Una Imagen genial" class="places__image">
-          <div class="places__overlay"></div>
-        </div>
+        <!-- <div class="places__image-container">
+          <img src="https://picsum.photos/460.webp?random=9" alt="Una Imagen genial" class="places__image">
+        </div> -->
+        <picture class="places__image-container overlay">
+          <source media="(max-width:544px)" srcset="./images/homeland_small-320.webp">
+          <source media="(max-width:1024px)" srcset="https://picsum.photos/340.webp?random=10">
+          <img src="https://picsum.photos/460.webp?random=11" alt="Imagen de un paisaje en la playa"
+            class="places__image">
+          <!-- <div class="places__overlay"></div> -->
+        </picture>
         <div class="places__content">
           <p class="places__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus
             repellendus, minima vel quia odit ipsa molestias dolorum officia unde aliquid nulla quibusdam. Delectus at,
