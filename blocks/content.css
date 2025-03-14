@@ -3,6 +3,10 @@
   text-align: start;
 }
 
+.content__section {
+  margin-bottom: 60px;
+}
+
 .content__heading {
   font-size: 54px;
   font-weight: 900;
